@@ -15,7 +15,7 @@ The pipeline used are explained in the sections that follows. Throughout the des
 
 #### 1.1 Filtering
 
-A preprocessing step of filtering the color of interest is performed. First, this is done by converting the color channel from RGB to HSV. Yellow and White HSV ranges are determined from selected frames of test videos using [TrackerBar](#1.5.1-TrackerBar). However, only yellow HSV filtering was employed as white HSV filtering was found to be ineffective in the challenge video.
+A preprocessing step of filtering the color of interest is performed. First, this is done by converting the color channel from RGB to HSV. Yellow and White HSV ranges are determined from selected frames of test videos using [TrackerBar](#151-trackerbar). However, only yellow HSV filtering was employed as white HSV filtering was found to be ineffective in the challenge video.
 
 
 Yellow filtering was performed using HSV range of (15, 115, 255) and (35, 115, 255)
